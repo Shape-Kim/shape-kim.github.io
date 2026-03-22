@@ -14,18 +14,17 @@ baseurl: ""
 # Of course don't forget to change the username and projectname to YOUR username and project
 
 # Name of website
-title: Shape-kim website
+title: Dohyung Kim
 
 # Short description of your site
-description: A virtual proof that name is awesome!
+description: AI Researcher @ Samsung Electronics | Computer Vision & LLM/VLM
 
 # --- Navigation bar options --- #
 
 # List of links in the navigation bar
-# navbar-links:
-#   Publication: "publications"
-#   CV : "https://Shape-kim.github.io/pre_cv"
-#   Contact me: "contact"
+navbar-links:
+  Publications: "https://scholar.google.com/citations?hl=en&user=AoN2hnoAAAAJ"
+  CV: "pre_cv"
   
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
@@ -42,19 +41,8 @@ avatar: "/img/turtle.png"
 author:
   name: Kim Do Hyung
   email: "do.hyung@yonsei.ac.kr"
-  facebook: yourname  # eg. daattali
-  github: Shape-Kim    # eg. daattali
-  twitter: yourname   # eg. daattali
-  reddit: yourname    # eg. daattali
-  google-plus: +yourname   # eg. +DeanAttali or 109424658772469020925
-  linkedin: yourname  # eg. daattali
-  xing: yourname      # eg. daattali
-  stackoverflow: yourlink  # eg. "3943160/daattali"
-  snapchat: yourname  # eg. daattali
-  instagram: yourname # eg. daattali
-  youtube: yourlink   # eg. user/daattali or channel/daattali
-  spotify: yourname   # eg. daattali
-  telephone: yourphone   # eg. +14159998888
+  github: Shape-Kim
+  google-scholar: "https://scholar.google.com/citations?hl=en&user=AoN2hnoAAAAJ"
 
 # Select which links to show in the footer
 footer-links-active:
@@ -73,6 +61,9 @@ footer-links-active:
   youtube: false
   spotify: false
   telephone: false
+
+# Google Scholar
+google-scholar: "https://scholar.google.com/citations?hl=en&user=AoN2hnoAAAAJ"
 
 # Select which share links to show in posts
 share-links-active:
@@ -109,7 +100,7 @@ title-separator: "-"
 # --- Don't need to touch anything below here (but you can if you want) --- #
 
 # Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
+timezone: "Asia/Seoul"
 markdown: kramdown
 highlighter: rouge
 permalink: /:year-:month-:day-:title/

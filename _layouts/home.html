@@ -1,0 +1,311 @@
+---
+layout: base
+---
+
+<div class="home-page">
+  <!-- Hero Section -->
+  <section class="hero-section">
+    <div class="hero-particles"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1 text-center">
+          <div class="hero-avatar">
+            <img src="{{ site.avatar | prepend: site.baseurl | replace: '//', '/' }}" alt="{{ site.author.name }}" />
+          </div>
+          <h1 class="hero-name">Dohyung Kim</h1>
+          <p class="hero-title">AI Researcher @ Samsung Electronics AI Center</p>
+          <p class="hero-affiliation">LLM/VLM | RAG | Agent | Computer Vision</p>
+          <div class="hero-links">
+            <a href="https://scholar.google.com/citations?hl=en&user=AoN2hnoAAAAJ" target="_blank" class="hero-btn"><i class="fa fa-graduation-cap"></i> Google Scholar</a>
+            <a href="https://github.com/{{ site.author.github }}" target="_blank" class="hero-btn"><i class="fa fa-github"></i> GitHub</a>
+            <a href="mailto:{{ site.author.email }}" class="hero-btn"><i class="fa fa-envelope"></i> Email</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="about-section" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          <h2 class="section-title"><span>About Me</span></h2>
+          <div class="about-content">
+            <p>
+              I am an AI Researcher at <strong>Samsung Electronics AI Center</strong>, working on large language models and vision-language models.
+              I received my Ph.D. in Electrical and Electronic Engineering from <strong>Yonsei University</strong>,
+              where I was advised by Prof. <a href="http://cvlab-yonsei.github.io" target="_blank">Bumsub Ham</a>
+              at the Computer Vision Lab.
+            </p>
+            <p>
+              My current research focuses on <em>LLM/VLM training</em>, <em>retrieval-augmented generation (RAG)</em>,
+              and <em>AI agents</em>. Previously, I worked on efficient deep learning for computer vision,
+              including network quantization, semantic correspondence, and image super-resolution.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Research Section -->
+  <section class="research-section" id="research">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          <h2 class="section-title"><span>Research Interests</span></h2>
+          <h3 class="research-subtitle">Current</h3>
+          <div class="research-grid">
+            <div class="research-card research-card-current">
+              <div class="research-icon"><i class="fa fa-language"></i></div>
+              <h3>LLM / VLM Training</h3>
+              <p>Training and fine-tuning large language models and vision-language models for real-world applications</p>
+            </div>
+            <div class="research-card research-card-current">
+              <div class="research-icon"><i class="fa fa-database"></i></div>
+              <h3>Retrieval-Augmented Generation</h3>
+              <p>Enhancing LLM outputs with external knowledge retrieval for accurate and grounded responses</p>
+            </div>
+            <div class="research-card research-card-current">
+              <div class="research-icon"><i class="fa fa-cogs"></i></div>
+              <h3>AI Agents</h3>
+              <p>Building autonomous AI agents that reason, plan, and interact with tools and environments</p>
+            </div>
+          </div>
+          <h3 class="research-subtitle">Previous</h3>
+          <div class="research-grid">
+            <div class="research-card">
+              <div class="research-icon"><i class="fa fa-compress"></i></div>
+              <h3>Network Quantization</h3>
+              <p>Compressing deep neural networks through low-bit quantization for efficient deployment</p>
+            </div>
+            <div class="research-card">
+              <div class="research-icon"><i class="fa fa-exchange"></i></div>
+              <h3>Semantic Correspondence</h3>
+              <p>Establishing dense correspondences between semantically similar images</p>
+            </div>
+            <div class="research-card">
+              <div class="research-icon"><i class="fa fa-search-plus"></i></div>
+              <h3>Super-Resolution</h3>
+              <p>Recovering high-resolution images from low-resolution inputs using deep learning</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Publications Section -->
+  <section class="publications-section" id="publications">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          <h2 class="section-title"><span>Publications</span></h2>
+          <p class="pub-note text-center" style="color:#64748b; font-size:14px; margin-top:-25px; margin-bottom:30px; font-family:'Open Sans',sans-serif;">
+            (* indicates equal contribution) &nbsp;|&nbsp;
+            <a href="https://scholar.google.com/citations?hl=en&user=AoN2hnoAAAAJ" target="_blank" style="color:#2563eb;"><i class="fa fa-graduation-cap"></i> Google Scholar</a>
+          </p>
+
+          <!-- Journal Papers -->
+          <h3 class="pub-category">Journal</h3>
+
+          <div class="pub-item">
+            <div class="pub-venue"><span class="venue-badge venue-journal">PR 2026</span></div>
+            <div class="pub-content">
+              <h4>Token-Based Dynamic Bit-Width Assignment for ViT Quantization</h4>
+              <p class="pub-authors"><strong>D. Kim</strong>*, J. Moon*, J. Lee, G. Lee, J. Jeon, B. Ham</p>
+              <p class="pub-venue-full">Pattern Recognition, vol. 171, no. 3, pp. 112269, Mar. 2026</p>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <div class="pub-venue"><span class="venue-badge venue-journal">TPAMI 2022</span></div>
+            <div class="pub-content">
+              <h4>Learning Semantic Correspondence Exploiting an Object-level Prior</h4>
+              <p class="pub-authors"><strong>D. Kim</strong>*, J. Lee*, W. Lee, J. Ponce, B. Ham</p>
+              <div class="pub-links">
+                <a href="https://arxiv.org/abs/1911.12914" target="_blank"><i class="fa fa-file-pdf-o"></i> Paper</a>
+                <a href="https://cvlab-yonsei.github.io/projects/SFNet/" target="_blank"><i class="fa fa-globe"></i> Project</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <div class="pub-venue"><span class="venue-badge venue-journal">ESSCIRC 2022</span></div>
+            <div class="pub-content">
+              <h4>SIF-NPU: A 28nm 3.48 TOPS/W 0.25 TOPS/mm<sup>2</sup> CNN Accelerator with Spatially Independent Fusion for Real-Time UHD Super-Resolution</h4>
+              <p class="pub-authors">S. Lee, K.-B. Lee, S. Joo, H. K. Ahn, J. Lee, <strong>D. Kim</strong>, B. Ham</p>
+              <div class="pub-links">
+                <a href="https://ieeexplore.ieee.org/abstract/document/9911509" target="_blank"><i class="fa fa-file-pdf-o"></i> Paper</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Conference Papers -->
+          <h3 class="pub-category">Conference</h3>
+
+          <div class="pub-item">
+            <div class="pub-venue"><span class="venue-badge venue-conf">ECCV 2024</span></div>
+            <div class="pub-content">
+              <h4>Toward INT4 Fixed-Point Training via Exploring Quantization Error for Gradients</h4>
+              <p class="pub-authors"><strong>D. Kim</strong>, J. Lee, J. Jeon, J. Moon, B. Ham</p>
+              <div class="pub-links">
+                <a href="https://arxiv.org/abs/2407.12637" target="_blank"><i class="fa fa-file-pdf-o"></i> Paper</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <div class="pub-venue"><span class="venue-badge venue-conf">CVPR 2024</span></div>
+            <div class="pub-content">
+              <h4>Instance-Aware Group Quantization for Vision Transformers</h4>
+              <p class="pub-authors">J. Moon, <strong>D. Kim</strong>, J. Cheon, B. Ham</p>
+              <div class="pub-links">
+                <a href="https://arxiv.org/abs/2404.00928" target="_blank"><i class="fa fa-file-pdf-o"></i> Paper</a>
+                <a href="https://cvlab.yonsei.ac.kr/projects/IGQ-ViT/" target="_blank"><i class="fa fa-globe"></i> Project</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <div class="pub-venue"><span class="venue-badge venue-conf">ICCV 2023</span></div>
+            <div class="pub-content">
+              <h4>Camera-Driven Representation Learning for Unsupervised Domain Adaptive Person Re-identification</h4>
+              <p class="pub-authors">G. Lee, S. Lee, <strong>D. Kim</strong>, Y. Shin, Y. Yoon, B. Ham</p>
+              <div class="pub-links">
+                <a href="https://arxiv.org/abs/2308.11901" target="_blank"><i class="fa fa-file-pdf-o"></i> Paper</a>
+                <a href="https://cvlab.yonsei.ac.kr/projects/CaCL/" target="_blank"><i class="fa fa-globe"></i> Project</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <div class="pub-venue"><span class="venue-badge venue-conf">ICCV 2021</span></div>
+            <div class="pub-content">
+              <h4>Distance-aware Quantization</h4>
+              <p class="pub-authors"><strong>D. Kim</strong>, J. Lee, B. Ham</p>
+              <div class="pub-links">
+                <a href="https://arxiv.org/abs/2108.06983" target="_blank"><i class="fa fa-file-pdf-o"></i> Paper</a>
+                <a href="https://cvlab.yonsei.ac.kr/projects/DAQ/" target="_blank"><i class="fa fa-globe"></i> Project</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <div class="pub-venue"><span class="venue-badge venue-conf">CVPR 2021</span></div>
+            <div class="pub-content">
+              <h4>Network Quantization with Element-wise Gradient Scaling</h4>
+              <p class="pub-authors">J. Lee, <strong>D. Kim</strong>, B. Ham</p>
+              <div class="pub-links">
+                <a href="https://arxiv.org/abs/2104.00903" target="_blank"><i class="fa fa-file-pdf-o"></i> Paper</a>
+                <a href="https://cvlab.yonsei.ac.kr/projects/EWGS/" target="_blank"><i class="fa fa-globe"></i> Project</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <div class="pub-venue"><span class="venue-badge venue-conf">ECCV 2020</span></div>
+            <div class="pub-content">
+              <h4>Learning with Privileged Information for Efficient Image Super-Resolution</h4>
+              <p class="pub-authors"><strong>D. Kim</strong>*, W. Lee*, J. Lee*, B. Ham</p>
+              <div class="pub-links">
+                <a href="https://arxiv.org/pdf/2007.07524.pdf" target="_blank"><i class="fa fa-file-pdf-o"></i> Paper</a>
+                <a href="https://cvlab-yonsei.github.io/projects/PISR/" target="_blank"><i class="fa fa-globe"></i> Project</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="pub-item">
+            <div class="pub-venue"><span class="venue-badge venue-conf venue-oral">CVPR 2019 <small>Oral</small></span></div>
+            <div class="pub-content">
+              <h4>SFNet: Learning Object-aware Semantic Correspondence</h4>
+              <p class="pub-authors"><strong>D. Kim</strong>*, J. Lee*, J. Ponce, B. Ham</p>
+              <div class="pub-links">
+                <a href="https://openaccess.thecvf.com/content_CVPR_2019/html/Lee_SFNet_Learning_Object-Aware_Semantic_Correspondence_CVPR_2019_paper.html" target="_blank"><i class="fa fa-file-pdf-o"></i> Paper</a>
+                <a href="https://cvlab-yonsei.github.io/projects/SFNet/" target="_blank"><i class="fa fa-globe"></i> Project</a>
+                <a href="https://www.youtube.com/watch?v=gnREux6Zwjg&t=5010s" target="_blank"><i class="fa fa-play-circle"></i> Video</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education & Awards -->
+  <section class="education-section" id="education">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+          <div class="row">
+            <div class="col-md-6">
+              <h2 class="section-title"><span>Experience</span></h2>
+              <div class="timeline">
+                <div class="timeline-item">
+                  <div class="timeline-dot timeline-dot-active"></div>
+                  <div class="timeline-content">
+                    <h4>AI Researcher</h4>
+                    <p class="timeline-place">Samsung Electronics, AI Center</p>
+                    <p class="timeline-date">Jan. 2025 &ndash; Present</p>
+                    <p class="timeline-detail">LLM/VLM RAG, Agent, Training</p>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <h4>AI Researcher</h4>
+                    <p class="timeline-place">Samsung Electronics, SAIT</p>
+                    <p class="timeline-date">Sep. 2024 &ndash; Dec. 2024</p>
+                  </div>
+                </div>
+              </div>
+
+              <h2 class="section-title" style="margin-top:40px;"><span>Education</span></h2>
+              <div class="timeline">
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <h4>Ph.D. in Electrical and Electronic Engineering</h4>
+                    <p class="timeline-place">Yonsei University</p>
+                    <p class="timeline-date">Mar. 2018 &ndash; Aug. 2024</p>
+                    <p class="timeline-detail">Advisor: Prof. <a href="http://cvlab-yonsei.github.io" target="_blank">Bumsub Ham</a></p>
+                  </div>
+                </div>
+                <div class="timeline-item">
+                  <div class="timeline-dot"></div>
+                  <div class="timeline-content">
+                    <h4>B.S. in Electrical and Electronic Engineering</h4>
+                    <p class="timeline-place">Yonsei University</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <h2 class="section-title"><span>Awards</span></h2>
+              <div class="awards-list">
+                <div class="award-item">
+                  <div class="award-icon"><i class="fa fa-trophy"></i></div>
+                  <div class="award-content">
+                    <h4>Silver Prize</h4>
+                    <p>25<sup>th</sup> Samsung Human-Tech Paper Award<br><span class="award-category">Signal Processing</span></p>
+                  </div>
+                </div>
+                <div class="award-item">
+                  <div class="award-icon"><i class="fa fa-star"></i></div>
+                  <div class="award-content">
+                    <h4>Excellence Award</h4>
+                    <p>Graduate Student Paper Contest<br><span class="award-category">Yonsei University, 2020</span></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+</div>
